@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "HW1.html",
+    "href": "HW1.html",
+    "title": "DataScienceHTML",
+    "section": "",
+    "text": "I believe data science is a discipline that empowers people to transform raw data into meaningful insights. Thereby, enabling us to communicate complex ideas and create intriguing narratives that drive informed decision-making within the system in scope."
+  },
+  {
+    "objectID": "HW1.html#what-do-you-think-being-a-data-scientist-is-about",
+    "href": "HW1.html#what-do-you-think-being-a-data-scientist-is-about",
+    "title": "DataScienceHTML",
+    "section": "",
+    "text": "I believe data science is a discipline that empowers people to transform raw data into meaningful insights. Thereby, enabling us to communicate complex ideas and create intriguing narratives that drive informed decision-making within the system in scope."
+  },
+  {
+    "objectID": "HW1.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians-use-a-markdown-list-at-some-point",
+    "href": "HW1.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians-use-a-markdown-list-at-some-point",
+    "title": "DataScienceHTML",
+    "section": "What differences/similarities do you see between data scientists and statisticians? (Use a markdown list at some point)",
+    "text": "What differences/similarities do you see between data scientists and statisticians? (Use a markdown list at some point)\n\nI feel that statisticians emphasize more theory, while data scientists are interested in integrating technological tools like machine learning and building useful models.\nBoth aim to derive insights, but data scientists seem to focus more on practical applications as a general notion."
+  },
+  {
+    "objectID": "HW1.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "HW1.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "DataScienceHTML",
+    "section": "How do you view yourself in relation to these two areas?",
+    "text": "How do you view yourself in relation to these two areas?\nI work as an engineer and very much see myself on the applied sciences side of things. That said, I was more interested in developing a robust foundation and intuition for the theory that the tools we bring to bear against problems are built upon. I found that in my career, the question stakeholders often ask is “why?” and I was all too often at a loss. I had fallen into a trap where I had been given tools without an understanding as to why I was using them other than they fit some criteria."
+  },
+  {
+    "objectID": "HW1.html#create-an-r-code-chunk-to-determine-the-class-type-and-structure-of-the-object-y",
+    "href": "HW1.html#create-an-r-code-chunk-to-determine-the-class-type-and-structure-of-the-object-y",
+    "title": "DataScienceHTML",
+    "section": "Create an R code chunk to determine the class, type, and structure of the object y",
+    "text": "Create an R code chunk to determine the class, type, and structure of the object y\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  },
+  {
+    "objectID": "HW1.html#create-an-r-code-chunk-that-uses-the-plot-function-on-y.-hide-the-r-code-in-the-final-document-by-setting-echo-to-false.",
+    "href": "HW1.html#create-an-r-code-chunk-that-uses-the-plot-function-on-y.-hide-the-r-code-in-the-final-document-by-setting-echo-to-false.",
+    "title": "DataScienceHTML",
+    "section": "Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.",
+    "text": "Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false."
+  }
+]

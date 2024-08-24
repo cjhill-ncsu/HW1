@@ -1,0 +1,40 @@
+---
+title: "DataScienceHTML"
+author: "Chris Hill"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## What do you think being a data scientist is about?
+
+I believe data science is a discipline that empowers people to transform raw data into meaningful insights. Thereby, enabling us to communicate complex ideas and create intriguing narratives that drive informed decision-making within the system in scope.
+
+## What differences/similarities do you see between data scientists and statisticians? *(Use a markdown list at some point)*
+
+-   I feel that statisticians emphasize more theory, while data scientists are interested in integrating technological tools like machine learning and building useful models.
+-   Both aim to derive insights, but data scientists seem to focus more on practical applications as a general notion.
+
+## How do you view yourself in relation to these two areas?
+
+I work as an engineer and very much see myself on the applied sciences side of things. That said, I was more interested in developing a robust foundation and intuition for the theory that the tools we bring to bear against problems are built upon. I found that in my career, the question stakeholders often ask is "why?" and I was all too often at a loss. I had fallen into a trap where I had been given tools without an understanding as to why I was using them other than they fit some criteria.
+
+## Create an R code chunk to determine the class, type, and structure of the object y
+
+```{r}
+y <- density(iris$Petal.Width)
+class(y)
+typeof(y)
+str(y)
+```
+
+## Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.
+
+```{r}
+#| echo=FALSE
+
+plot(y)
+```
+
+
